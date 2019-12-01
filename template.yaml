@@ -1,0 +1,20 @@
+
+Resources:
+  default:
+    Type: TencentCloud::Serverless::Namespace
+    blogHome:
+      Properties:
+        CodeUri: .
+        Description: 博客主页
+        Environment:
+          Variables:
+            password: password
+        Events: {}
+        Handler: index.main_handler
+        MemorySize: 128
+        Runtime: Nodejs8.9
+        Timeout: 3
+        VpcConfig:
+          SubnetId: subnet-l8cvycz6
+          VpcId: vpc-mz3unpid
+      Type: TencentCloud::Serverless::Function

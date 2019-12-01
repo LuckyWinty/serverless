@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f5f5;
+}
+
+.blog-home {
+    max-width: 660px;
+    margin: 80px auto;
+}
+
+.blog-home .post {
+    padding: 32px;
+    border-bottom: solid 1px #e0e0e0;
+    background: #ffffff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.blog-home .post:hover {
+    background: #cbf0ff;
+}
+
+.blog-home .markdown-body {
+    max-height: 300px;
+    overflow: hidden;
+}

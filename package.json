@@ -1,0 +1,17 @@
+{
+  "name": "Node8.9-Mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "highlight.js": "^9.16.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "marked": "^0.7.0",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2",
+    "serverless-http": "^2.3.0"
+  }
+}

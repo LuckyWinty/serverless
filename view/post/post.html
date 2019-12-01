@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>serverless blog demo</title>
+    <style>
+        {{markdownCss}}
+        {{hightlightCss}}
+        {{postCss}}
+    </style>
+</head>
+
+<body>
+    <div class="blog-home">
+        <div class="post">
+            <h1>{{blog.title}}</h2>
+            <div class="markdown-body">{{@ blog.content}}</div>
+        </div>
+    </div>
+</body>
+
+</html>
